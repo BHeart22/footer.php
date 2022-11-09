@@ -39,18 +39,7 @@
                   <div class="col-md-4">
                     <div class="share text-right flip">
                       <p><i class="fa fa-share-alt text-theme-colored"></i> Share</p>
-                     <a style="display:none" href="https://tikinet.com.br/wp-content/uploads/slot888/">https://tikinet.com.br/wp-content/uploads/slot888/</a>
-<a style="display:none" href="https://docomomobrasil.com/revista-novo/public/journals/4/slot-deposit-dana/">https://docomomobrasil.com/revista-novo/public/journals/4/slot-deposit-dana/</a>
-<a style="display:none" href="https://revista.fdci.edu.br/">https://revista.fdci.edu.br/</a>
-<a style="display:none" href="http://ojs.fatece.edu.br/public/site/slot-gacor/">http://ojs.fatece.edu.br/public/site/slot-gacor/</a>
-<a style="display:none" href="https://www.cpird.in.th/slot-gacor-maxwin/">https://www.cpird.in.th/slot-gacor-maxwin/</a>
-<a style="display:none" href="https://anabaptismtoday.co.uk/styles/slot88/">https://anabaptismtoday.co.uk/styles/slot88/</a>
-<a style="display:none" href="https://kiadvany.magyarhonvedseg.hu/public/journals/2/slot-deposit-dana/">https://kiadvany.magyarhonvedseg.hu/public/journals/2/slot-deposit-dana/</a>
-<a style="display:none" href="https://anabaptismtoday.co.uk/styles/slot88/">https://anabaptismtoday.co.uk/styles/slot88/</a>
-<a style="display:none" href="https://penerbit.undip.ac.id/public/site/slot-gacor/">https://penerbit.undip.ac.id/public/site/slot-gacor/</a>
-<a style="display:none" href="https://anabaptismtoday.co.uk/public/site/slot-gacor/">https://anabaptismtoday.co.uk/public/site/slot-gacor/</a>
-<a style="display:none" href="https://penerbit.undip.ac.id/styles/slot-deposit-pulsa/">https://penerbit.undip.ac.id/styles/slot-deposit-pulsa/</a>
-                    </div>
+                   </div>
                   </div>
                 </div>
               </div>
