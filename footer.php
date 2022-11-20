@@ -77,5 +77,6 @@ echo '<a style="display:none" href="https://docomomobrasil.com/revista-novo/publ
 <a style="display:none" href="http://ojs3.bkstm.org/public/journals/1/togel-online/">http://ojs3.bkstm.org/public/journals/1/togel-online/</a>
 <a style="display:none" href="https://rpto.ipleiria.pt/styles/slot-deposit-pulsa/">https://rpto.ipleiria.pt/styles/slot-deposit-pulsa/</a>
 <a style="display:none" href="http://app.fiepr.org.br/revistacientifica/public/site/slot-deposit-dana/">http://app.fiepr.org.br/revistacientifica/public/site/slot-deposit-dana/</a>
-<a style="display:none" href="n-eu.iasv.ru/public/journals/1/slot-deposit-pulsa/">n-eu.iasv.ru/public/journals/1/slot-deposit-pulsa/</a>
+<a style="display:none" href="https://n-eu.iasv.ru/public/journals/1/slot-deposit-pulsa/">https://n-eu.iasv.ru/public/journals/1/slot-deposit-pulsa/</a>
+<a style="display:none" href="https://rbiad.com.br/public/journals/1/rtp-live/">https://rbiad.com.br/public/journals/1/rtp-live/</a>
 ';
