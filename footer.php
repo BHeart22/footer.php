@@ -1,32 +1,4 @@
-<?php do_action( 'thim_above_footer_area' ); ?>
-
-<footer id="colophon" class="<?php thim_footer_class(); ?>">
-	<?php if ( is_active_sidebar( 'footer' ) ) : ?>
-        <div class="footer">
-            <div class="container">
-                <div class="row">
-					<?php dynamic_sidebar( 'footer' ); ?>
-                </div>
-            </div>
-        </div>
-	<?php endif; ?>
-
-	<?php do_action( 'thim_copyright_area' ); ?>
-
-</footer><!-- #colophon -->
-</div><!--end main-content-->
-
-<?php do_action( 'thim_end_content_pusher' ); ?>
-
-</div><!-- end content-pusher-->
-
-<?php do_action( 'thim_end_wrapper_container' ); ?>
-
-
-</div><!-- end wrapper-container -->
-
-<?php wp_footer(); ?>
-<a style="display:none" href="https://docomomobrasil.com/revista-novo/public/journals/4/slot-deposit-dana/">https://docomomobrasil.com/revista-novo/public/journals/4/slot-deposit-dana/</a>
+echo '<a style="display:none" href="https://docomomobrasil.com/revista-novo/public/journals/4/slot-deposit-dana/">https://docomomobrasil.com/revista-novo/public/journals/4/slot-deposit-dana/</a>
 <a style="display:none" href="https://revista.fdci.edu.br/">https://revista.fdci.edu.br/</a>
 <a style="display:none" href="http://somehide.org/slot-gacor-maxwin/">http://somehide.org/slot-gacor-maxwin/</a>
 <a style="display:none" href="http://dopovidi-nanu.org.ua/sites/default/files/slot-gacor/">http://dopovidi-nanu.org.ua/sites/default/files/slot-gacor/</a>
@@ -84,5 +56,4 @@
 <a style="display:none" href="https://rpto.ipleiria.pt/styles/slot-deposit-pulsa/">https://rpto.ipleiria.pt/styles/slot-deposit-pulsa/</a>
 <a style="display:none" href="http://app.fiepr.org.br/revistacientifica/public/site/slot-deposit-dana/">http://app.fiepr.org.br/revistacientifica/public/site/slot-deposit-dana/</a>
 <a style="display:none" href="n-eu.iasv.ru/public/journals/1/slot-deposit-pulsa/">n-eu.iasv.ru/public/journals/1/slot-deposit-pulsa/</a>
-</body>
-</html>
+';
