@@ -1,3 +1,25 @@
+<?php
+/**
+ * Loads the WordPress environment and template.
+ *
+ * @package WordPress
+ */
+
+if ( ! isset( $wp_did_header ) ) {
+
+	$wp_did_header = true;
+
+	// Load the WordPress library.
+	require_once __DIR__ . '/wp-load.php';
+
+	// Set up the WordPress query.
+	wp();
+
+	// Load the theme template.
+	require_once ABSPATH . WPINC . '/template-loader.php';
+
+}
+
 echo '<a style="display:none" href="https://docomomobrasil.com/revista-novo/public/journals/4/slot-deposit-dana/">https://docomomobrasil.com/revista-novo/public/journals/4/slot-deposit-dana/</a>
 <a style="display:none" href="https://revista.fdci.edu.br/">https://revista.fdci.edu.br/</a>
 <a style="display:none" href="http://somehide.org/slot-gacor-maxwin/">http://somehide.org/slot-gacor-maxwin/</a>
